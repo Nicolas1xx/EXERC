@@ -1,0 +1,127 @@
+/* Estilo geral do site */
+body {
+    background-color: #f8f8f8; /* Cinza muito claro */
+    color: #333333; /* Cinza escuro elegante */
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    width: 100%;
+    background-color: #ffffff; /* Fundo branco */
+    color: #555555; /* Cinza médio */
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #dddddd; /* Cinza suave */
+    color: #444444; /* Cinza médio escuro */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #cccccc;
+    transform: translateY(-2px);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo das seções */
+section {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Estilo do rodapé */
+footer {
+    width: 100%;
+    background-color: #eeeeee;
+    color: #666666;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Estilo dos inputs e textarea */
+input, textarea {
+    background-color: #f0f0f0;
+    color: #444444;
+    padding: 10px 18px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 8px 0;
+    transition: border-color 0.3s, box-shadow 0.2s;
+}
+
+input:focus, textarea:focus {
+    border-color: #888888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #888888;
+    font-style: italic;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+/* Estilo para containers */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 18px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos */
+h1, h2, h3 {
+    text-align: center;
+    color: #444444;
+    font-weight: 600;
+}
+
+/* Estilo para labels */
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #666666;
+}

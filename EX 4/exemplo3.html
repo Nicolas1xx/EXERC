@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transporte de Colaboradores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="dataHora"></p> <!-- Exibir data e hora -->
+
+    <div class="container">
+        <h2>Transporte de Colaboradores</h2>
+        <label for="funcionarios">Quantidade de funcionários:</label>
+        <input type="number" id="funcionarios" min="1" required>
+
+        <label for="dias">Quantidade de dias úteis:</label>
+        <input type="number" id="dias" min="1" required>
+
+        <button onclick="calcularCusto()">Calcular Custo</button>
+
+        <h3 id="resultado"></h3>
+    </div>
+
+    <script src="dataHora.js"></script> <!-- Script para exibir data e hora -->
+    <script src="codigo3.js"></script> <!-- Script do cálculo -->
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="dataHora"></p>
+    <div class="box">
+        <h1>Cálculo de Horas Extras</h1>
+        <label for="salario">Salário Mensal Bruto:</label>
+        <input type="number" name="salario" id="salario">
+        <br>
+        <label for="horasNormais">Horas Extras (Dias Úteis):</label>
+        <input type="number" name="horasNormais" id="horasNormais">
+        <br>
+        <label for="horasFinaisSemana">Horas Extras (Finais de Semana):</label>
+        <input type="number" name="horasFinaisSemana" id="horasFinaisSemana">
+        <br>
+        <button onclick="calcular()">Calcular</button>
+        <button onclick="limpar()">Limpar</button>
+        <label for="res">Resultado:</label>
+        <p id="res">Aqui irá aparecer o valor a receber...</p>
+        <br>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>

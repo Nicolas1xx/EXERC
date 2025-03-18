@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="dataHora"></p> <!-- Exibir data e hora -->
+
+    <div class="box">
+        <h1>Aumento de Salário</h1>
+        <label for="salario">Salário Atual:</label>
+        <input type="number" name="salario" id="salario">
+        <br>
+        <button onclick="calcular()">Calcular Aumento</button>
+        <button onclick="limpar()">Limpar</button>
+        <p id="res">Aqui irá aparecer o novo salário...</p>
+    </div>
+
+    <script src="dataHora.js"></script> <!-- Script para mostrar a data e hora -->
+    <script src="codigo2.js"></script> <!-- Script do cálculo -->
+</body>
+</html>
